@@ -78,7 +78,7 @@
       "folderId": "uD9b8FTl",
       "tagsIds": [],
       "description": null,
-      "name": "kubernetes certificate",
+      "name": "certificate",
       "content": [
         {
           "label": "Fragment 1",
@@ -88,7 +88,7 @@
       ],
       "id": "HkOGr2jL",
       "createdAt": 1669716747815,
-      "updatedAt": 1669716777879
+      "updatedAt": 1669717202661
     },
     {
       "isDeleted": false,
@@ -96,7 +96,7 @@
       "folderId": "uD9b8FTl",
       "tagsIds": [],
       "description": null,
-      "name": "kubernetes clusterissuer cloudflare",
+      "name": "clusterissuer cloudflare",
       "content": [
         {
           "label": "Fragment 1",
@@ -106,7 +106,7 @@
       ],
       "id": "IcjJQuBG",
       "createdAt": 1669716798167,
-      "updatedAt": 1669716952456
+      "updatedAt": 1669717200959
     },
     {
       "isDeleted": false,
@@ -114,7 +114,7 @@
       "folderId": "uD9b8FTl",
       "tagsIds": [],
       "description": null,
-      "name": "kubernetes clusterissuer self-signed",
+      "name": "clusterissuer self-signed",
       "content": [
         {
           "label": "Fragment 1",
@@ -124,7 +124,7 @@
       ],
       "id": "LePu7PHo",
       "createdAt": 1669716959843,
-      "updatedAt": 1669716968652
+      "updatedAt": 1669717198998
     },
     {
       "isDeleted": false,
@@ -132,7 +132,7 @@
       "folderId": "uD9b8FTl",
       "tagsIds": [],
       "description": null,
-      "name": "kubernetes secret acme cloudflare",
+      "name": "secret acme cloudflare",
       "content": [
         {
           "label": "Fragment 1",
@@ -142,7 +142,7 @@
       ],
       "id": "Svn0LwN2",
       "createdAt": 1669716979278,
-      "updatedAt": 1669717000218
+      "updatedAt": 1669717197279
     },
     {
       "isDeleted": false,
@@ -150,7 +150,7 @@
       "folderId": "uD9b8FTl",
       "tagsIds": [],
       "description": null,
-      "name": "kubernetes ingress",
+      "name": "ingress",
       "content": [
         {
           "label": "Fragment 1",
@@ -160,7 +160,7 @@
       ],
       "id": "E2-8gpC4",
       "createdAt": 1669717027536,
-      "updatedAt": 1669717107891
+      "updatedAt": 1669717194700
     },
     {
       "isDeleted": false,
@@ -168,7 +168,7 @@
       "folderId": "uD9b8FTl",
       "tagsIds": [],
       "description": null,
-      "name": "kubernetes ingressroutetcp",
+      "name": "ingressroutetcp",
       "content": [
         {
           "label": "Fragment 1",
@@ -178,7 +178,7 @@
       ],
       "id": "0tGQrJ-e",
       "createdAt": 1669717077512,
-      "updatedAt": 1669717119242
+      "updatedAt": 1669717191834
     }
   ],
   "tags": []
