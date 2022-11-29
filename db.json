@@ -1,0 +1,76 @@
+{
+  "folders": [
+    {
+      "id": "WZoWvXAC",
+      "name": "ansible",
+      "defaultLanguage": "typescript",
+      "parentId": null,
+      "isOpen": false,
+      "isSystem": false,
+      "createdAt": 1669715501837,
+      "updatedAt": 1669716277645
+    },
+    {
+      "name": "docker-compose",
+      "parentId": null,
+      "isOpen": false,
+      "isSystem": false,
+      "defaultLanguage": "plain_text",
+      "id": "MOgzqBT7",
+      "createdAt": 1669716290786,
+      "updatedAt": 1669716293790
+    },
+    {
+      "name": "terraform",
+      "parentId": null,
+      "isOpen": false,
+      "isSystem": false,
+      "defaultLanguage": "plain_text",
+      "id": "u9tZFZjX",
+      "createdAt": 1669716295242,
+      "updatedAt": 1669716297422
+    },
+    {
+      "name": "vagrant",
+      "parentId": null,
+      "isOpen": false,
+      "isSystem": false,
+      "defaultLanguage": "plain_text",
+      "id": "cfqoGvqT",
+      "createdAt": 1669716299260,
+      "updatedAt": 1669716300941
+    },
+    {
+      "name": "kubernetes",
+      "parentId": null,
+      "isOpen": false,
+      "isSystem": false,
+      "defaultLanguage": "plain_text",
+      "id": "uD9b8FTl",
+      "createdAt": 1669716304581,
+      "updatedAt": 1669716306728
+    },
+    {
+      "name": "python",
+      "parentId": null,
+      "isOpen": false,
+      "isSystem": false,
+      "defaultLanguage": "plain_text",
+      "id": "hRnrYdi6",
+      "createdAt": 1669716308187,
+      "updatedAt": 1669716312596
+    },
+    {
+      "name": "packer",
+      "parentId": null,
+      "isOpen": false,
+      "isSystem": false,
+      "defaultLanguage": "plain_text",
+      "id": "prnXmlfj",
+      "createdAt": 1669716318165,
+      "updatedAt": 1669716322904
+    }
+  ],
+  "snippets": [],
+  "tags": []
+}
