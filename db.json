@@ -71,6 +71,115 @@
       "updatedAt": 1669716322904
     }
   ],
-  "snippets": [],
+  "snippets": [
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "uD9b8FTl",
+      "tagsIds": [],
+      "description": null,
+      "name": "kubernetes certificate",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "plain_text",
+          "value": "apiVersion: cert-manager.io/v1\nkind: Certificate\nmetadata:\n  name: your-certificate\n  namespace: your-namespace\nspec:\n  secretName: your-secret\n  issuerRef:\n    name: ssl-issuer\n    kind: ClusterIssuer\n  dnsNames:\n    - your-hostname"
+        }
+      ],
+      "id": "HkOGr2jL",
+      "createdAt": 1669716747815,
+      "updatedAt": 1669716777879
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "uD9b8FTl",
+      "tagsIds": [],
+      "description": null,
+      "name": "kubernetes clusterissuer cloudflare",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "plain_text",
+          "value": "apiVersion: cert-manager.io/v1\nkind: ClusterIssuer\nmetadata:\n  name: acme-issuer\nspec:\n  acme:\n    email: your-email@address\n\t\tserver: https://acme-v02.api.letsencrypt.org/directory\n    privateKeySecretRef:\n      name: example-issuer-account-key\n    solvers:\n    \t- dns01:\n        \tcloudflare:\n          \temail: your-email@address\n          \tapiKeySecretRef:\n        \t\t\tname: cloudflare-api-key-secret\n        \t\t\tkey: api-key     \n          selector:\n          dnsZones:\n            - 'your-domain'\n"
+        }
+      ],
+      "id": "IcjJQuBG",
+      "createdAt": 1669716798167,
+      "updatedAt": 1669716952456
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "uD9b8FTl",
+      "tagsIds": [],
+      "description": null,
+      "name": "kubernetes clusterissuer self-signed",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "plain_text",
+          "value": "apiVersion: cert-manager.io/v1\nkind: ClusterIssuer\nmetadata:\n  name: selfsigned-issuer\nspec:\n  selfSigned: {}"
+        }
+      ],
+      "id": "LePu7PHo",
+      "createdAt": 1669716959843,
+      "updatedAt": 1669716968652
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "uD9b8FTl",
+      "tagsIds": [],
+      "description": null,
+      "name": "kubernetes secret acme cloudflare",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "plain_text",
+          "value": "apiVersion: v1\nkind: Secret\nmetadata:\n  name: cloudflare-api-key-secret\n  namespace: cert-manager\ntype: Opaque\nstringData:\n  api-key: your-api-key"
+        }
+      ],
+      "id": "Svn0LwN2",
+      "createdAt": 1669716979278,
+      "updatedAt": 1669717000218
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "uD9b8FTl",
+      "tagsIds": [],
+      "description": null,
+      "name": "kubernetes ingress",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "plain_text",
+          "value": "apiVersion: networking.k8s.io/v1\nkind: Ingress\nmetadata:\n  name: ingress\n  # namespace: your-namespace\nspec:\n  rules:\n  - host: \"your-hostname\"\n    http:\n      paths:\n      - path: /\n        pathType: Prefix\n        backend:\n          service:\n            name: your-service-name \n            port:\n              number: 80\n  # tls:\n  # - hosts:\n  #   - your-hostname.com\n  #   secretName: your-secret"
+        }
+      ],
+      "id": "E2-8gpC4",
+      "createdAt": 1669717027536,
+      "updatedAt": 1669717107891
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "uD9b8FTl",
+      "tagsIds": [],
+      "description": null,
+      "name": "kubernetes ingressroutetcp",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "plain_text",
+          "value": "apiVersion: traefik.containo.us/v1alpha1\nkind: IngressRouteTCP\nmetadata:\n  name: ingressroutetcp\n  # namespace: your-namespace\nspec:\n  entryPoints:\n  - web\n  - websecure\n  routes:\n  - match: HostSNI(`your-hostname-sni`)\n    priority: 10\n    services:\n    - name: your-service\n      port: 80\n  # tls:\n  #   passthrough: true"
+        }
+      ],
+      "id": "0tGQrJ-e",
+      "createdAt": 1669717077512,
+      "updatedAt": 1669717119242
+    }
+  ],
   "tags": []
 }
