@@ -179,6 +179,24 @@
       "id": "0tGQrJ-e",
       "createdAt": 1669717077512,
       "updatedAt": 1669717191834
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "uD9b8FTl",
+      "tagsIds": [],
+      "description": null,
+      "name": "namespace",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "plain_text",
+          "value": "apiVersion: v1\nkind: Namespace\nmetadata:\n  name: your-namespace"
+        }
+      ],
+      "id": "ubIXR94V",
+      "createdAt": 1671616198719,
+      "updatedAt": 1671616207544
     }
   ],
   "tags": []
